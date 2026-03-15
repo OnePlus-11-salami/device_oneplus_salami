@@ -6,4 +6,30 @@
 <resources>
     <!-- Whether to enable framework dimming for UDFPS -->
     <bool name="config_udfpsFrameworkDimming">true</bool>
+
+    <!-- Array of brightness-alpha LUT for framework dimming -->
+    <string-array name="config_udfpsDimmingBrightnessAlphaArray" translatable="false">
+        <item>0,255</item>
+        <item>6,235</item>
+        <item>26,222</item>
+        <item>62,209</item>
+        <item>116,197</item>
+        <item>192,186</item>
+        <item>286,175</item>
+        <item>400,147</item>
+        <item>538,134</item>
+        <item>696,122</item>
+        <item>878,110</item>
+        <item>1102,98</item>
+        <item>1334,86</item>
+        <item>1588,75</item>
+        <item>1868,64</item>
+        <item>2172,53</item>
+        <item>2500,42</item>
+        <item>2854,31</item>
+        <item>3236,21</item>
+        <item>3642,10</item>
+        <item>4095,0</item>
+    </string-array>
+
 </resources>
